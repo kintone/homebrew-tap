@@ -1,7 +1,7 @@
 TAP=kintone/tap
 FORMULAE=cli-kintone
 
-.PHONY: debug-livecheck
+.PHONY: livecheck install build test style	audit clean
 
 livecheck:
 	brew livecheck --debug $(FORMULAE)
@@ -12,14 +12,13 @@ install:
 build:
 	HOMEBREW_NO_INSTALL_FROM_API=1 brew install --build-from-source --verbose --debug $(FORMULAE)
 
+check:
+	brew style $(TAP)
+	brew readall --aliases --os=all --arch=all kintone/tap
+	brew audit --strict --online --tap $(TAP)
+
 test:
 	brew test $(FORMULAE)
-
-style:
-	brew style $(TAP)
-
-audit:
-	brew audit --strict --online --tap $(TAP)
 
 clean:
 	brew uninstall $(FORMULAE)
