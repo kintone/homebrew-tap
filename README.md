@@ -15,9 +15,9 @@ brew "<formula>"
 
 ## Formulae
 
-|Name|Installation|
-|-|-|
-|cli-kintone|`brew install cli-kintone`|
+| Name            |Installation|
+|-----------------|-|
+| [cli-kintone](https://cli.kintone.dev/) |`brew install cli-kintone`|
 
 ## Documentation
 
