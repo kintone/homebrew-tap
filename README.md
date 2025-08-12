@@ -2,6 +2,9 @@
 
 [Homebrew](https://brew.sh/) Tap for official kintone CLI tools.
 
+> [!WARNING]
+> This repository is currently under development. Its contents and structure may change in the future.
+
 ## Prerequisites
 
 - [Homebrew](https://brew.sh/)
