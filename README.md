@@ -13,6 +13,12 @@ tap "kintone/tap"
 brew "<formula>"
 ```
 
+## Formulae
+
+|Name|Installation|
+|-|-|
+|cli-kintone|`brew install cli-kintone`|
+
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
