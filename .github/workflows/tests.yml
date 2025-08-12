@@ -12,12 +12,7 @@ jobs:
       matrix:
         os: [ ubuntu-22.04, macos-13, macos-15 ]
     runs-on: ${{ matrix.os }}
-    permissions:
-      actions: read
-      checks: read
-      contents: read
-      packages: read
-      pull-requests: read
+    permissions: write-all
     steps:
       - name: Set up Homebrew
         id: set-up-homebrew
