@@ -46,6 +46,7 @@ jobs:
           base64_token=$(echo -n "${TOKEN}" | base64 | tr -d "\n")
           echo "::add-mask::${base64_token}"
           echo "token=${base64_token}" >> "${GITHUB_OUTPUT}"
+      - run: brew search kintone/tap
       - run: brew test-bot --only-formulae --root-url=https://ghcr.io/v2/kintone/tap
         if: github.event_name == 'pull_request'
         env:
