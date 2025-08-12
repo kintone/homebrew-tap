@@ -1,22 +1,35 @@
-# Kintone Tap
+# kintone/homebrew-tap
 
-## How do I install these formulae?
+[Homebrew](https://brew.sh/) Tap for official kintone CLI tools.
 
-`brew install kintone/tap/<formula>`
+## Prerequisites
 
-Or `brew tap kintone/tap` and then `brew install <formula>`.
+- [Homebrew](https://brew.sh/)
 
-Or, in a `brew bundle` `Brewfile`:
+## Installation
 
-```ruby
-tap "kintone/tap"
-brew "<formula>"
+First, add the tap.
+
+```shell
+brew tap kintone/tap
+```
+
+Then, you can install the formula.
+
+```shell
+brew install <formula>
+```
+
+Or, you can install the formula directly.
+
+```
+brew install kintone/tap/<formula>
 ```
 
 ## Formulae
 
-| Name            |Installation|
-|-----------------|-|
+| Formula Name                            |Installation|
+|-----------------------------------------|-|
 | [cli-kintone](https://cli.kintone.dev/) |`brew install cli-kintone`|
 
 ## License
