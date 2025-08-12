@@ -8,6 +8,7 @@ class CliKintone < Formula
   url "https://registry.npmjs.org/@kintone/cli/-/cli-1.14.2.tgz"
   sha256 "637f7117a9a8782d7430381d47f846d38217f6ef5a3127bd1cc6032309dc4d8c"
   license "MIT"
+  revision 1
 
   # https://docs.brew.sh/Brew-Livecheck
   livecheck do
