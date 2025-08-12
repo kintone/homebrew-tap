@@ -15,6 +15,9 @@ build:
 test:
 	brew test $(FORMULAE)
 
+style:
+	brew style $(TAP)
+
 audit:
 	brew audit --strict --online --tap $(TAP)
 
