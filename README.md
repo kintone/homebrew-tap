@@ -19,10 +19,6 @@ brew "<formula>"
 |-----------------|-|
 | [cli-kintone](https://cli.kintone.dev/) |`brew install cli-kintone`|
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
-
 ## License
 
 Copyright (c) 2025 Cybozu, Inc.
